@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>*{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            background-color: #000;
+            color:#d8d8d8;
+            border-bottom:0.5px solid gray;
+            width: 100%;
+            line-height: 80px;
+            height: 80px;
+            font-size: 18px;
+            padding: 0 30px;
+            position: absolute;
+            top:0;
+            left:0;
+            font-family:"Koulen";
+        }
+        .navbar a{
+            text-decoration: none;
+            color:#d8d8d8;
+        }
+        .navbar a.nav-logo{
+            float:left;
+            height: inherit;
+            line-height: inherit;
+            padding: 0 30px;
+            font-size: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: "Koulen";
+            color:#d8d8d8;
+            font-weight: bold;
+        }
+        .navbar ui{
+            float:right;
+            list-style: none;
+            height: inherit;
+            line-height: inherit;
+            padding: 0 50px;
+        }
+        .navbar ui li{
+            display: inline-block;
+        }
+        .navbar ui li a{
+            display: block;
+            text-align: center;
+            min-width: 120px;
+            padding: 0 30px;
+        }
+        .navbar ui li a:hover {
+            background-color: gray;
+        }
+        body{
+            background-color: rgb(126, 5, 5);
+        }
+        .content{
+            font-family: 'Koulen';
+            color:#d8d8d8;
+            margin-top:30%;
+            margin-left:100px;
+        }
+        h1{
+            font-size: 70px;
+        }
+        p{
+            margin-top: 10px;
+        }
+        main {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .buttons{
+            margin-top: 20px;
+            background-color: #d8d8d8;
+            cursor: pointer;
+            color:#191919;
+            padding: 12px 20px;
+            float: left;
+            border: 0;
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+        .buttons:hover{
+            background:#848482;
+        }
+        img{
+            margin-top: 80px;
+            margin-left: 175px;
+            width: 700px;
+            filter: grayscale(1);
+        }
+        img:hover {
+            filter: grayscale(0);
+            transition: 3s;
+            cursor: pointer;
+        }</style>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Bumble & Oreo</title>
+        <link href-="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    </head>
+ 
+    <body>
+            <nav class='navbar'>
+                <a href="index.html" class="nav-logo"></a>
+                <ui>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="room.html">Lukes Room</a></li>
+                    <li><a href="interests.html">Lukes Life</a></li>
+                    <li><a href="pets.html">Pets</a></li>
+                </ui>
+            </nav>
+            <main>
+                <div class="content">
+               <h1 style="color:black;">Bumble:</h1>
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178916131753984/IMG_5574.png">
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178929679355904/IMG_5573.png">
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178929960386610/IMG_5572.jpg">
+               <h1 style="color:black;">Oreo:</h1>
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178902705799268/IMG_5577.png">
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178902978396190/IMG_5576.png">
+               <img src="https://cdn.discordapp.com/attachments/917653171269156877/976178915737501726/IMG_5575.png">
+               </div>
+            </main>
+    </body>
+</html>
